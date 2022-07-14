@@ -1,6 +1,5 @@
-package com.example.springcotroller_th_2;
+package com.example.springcontroller_th_2;
 
-import com.example.springcotroller_th_2.WebConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {

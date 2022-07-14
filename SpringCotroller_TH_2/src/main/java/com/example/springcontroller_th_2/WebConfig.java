@@ -1,4 +1,4 @@
-package com.example.springcotroller_th_2;
+package com.example.springcontroller_th_2;
 
 
 import org.springframework.beans.BeansException;
@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.example.springcotroller_th_2")
+@ComponentScan("controller")
 public class WebConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
     private ApplicationContext applicationContext;
 
